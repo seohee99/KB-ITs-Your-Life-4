@@ -1,0 +1,28 @@
+package com.edu.bank;
+
+public class Customer {
+	public String cusName;
+	public int ssn;
+	public Account account;
+	
+	
+	
+	public Customer(String cusName, int ssn, Account account) {
+		this.cusName = cusName;
+		this.ssn = ssn;
+		this.account = account;
+	}
+	public String getCustomerInfo() {
+		return cusName + "," + ssn + "," + account.getAccountInfo();
+	}
+	public Account getAccount() {
+		return account;
+	}
+	public String getName() {
+		return cusName;
+	}
+	
+	
+	
+
+}

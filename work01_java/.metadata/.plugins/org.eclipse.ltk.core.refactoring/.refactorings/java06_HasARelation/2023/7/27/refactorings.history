@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.edu.oop.Notebook&apos; to &apos;NoteBook&apos;&#x0D;&#x0A;- Original project: &apos;java06_HasARelation&apos;&#x0D;&#x0A;- Original element: &apos;com.edu.oop.Notebook&apos;&#x0D;&#x0A;- Renamed element: &apos;com.edu.oop.NoteBook&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Notebook&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.edu.oop{Notebook.java[Notebook" matchStrategy="1" name="NoteBook" qualified="false" references="true" similarDeclarations="false" stamp="1688452799972" textual="false" version="1.0"/>
+</session>

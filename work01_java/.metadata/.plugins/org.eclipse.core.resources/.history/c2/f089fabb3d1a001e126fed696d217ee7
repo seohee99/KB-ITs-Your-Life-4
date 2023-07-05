@@ -1,0 +1,29 @@
+package com.edu.bank;
+import java.util.*;
+
+public class Account {
+	public int accNumber;
+	public double balance;
+	public String bankName;
+	
+	
+	public String getAccountInfo() {
+		return accNumber + " , " + balance + " , " + bankName;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public double deposit(double amt) {
+		balance += amt;
+		return balance;
+	}
+	public double withdraw(double amt) {
+		balance -= amt;
+		return balance;
+	}
+	public String getBankName() {
+		return bankName;
+	}
+	
+	
+}

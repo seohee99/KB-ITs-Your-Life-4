@@ -1,0 +1,17 @@
+package com.edu.cons.test;
+
+import com.edu.cons.Shirt;
+
+public class ShirtTest {
+
+	public static void main(String[] args) {
+		/*
+		 * s1이라는 객체 생성시 Shirt 클래스는 Type으로 작동
+		 */
+		Shirt s1 = new Shirt(); // Class는 객체 생성 시 Type으로 작용한다
+		System.out.println(s1.getShirt());
+		
+
+	}
+
+}

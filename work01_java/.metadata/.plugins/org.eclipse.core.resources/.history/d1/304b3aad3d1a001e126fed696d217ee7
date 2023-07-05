@@ -1,0 +1,21 @@
+package com.edu.bank;
+
+public class Customer {
+	public String cusName;
+	public int ssn;
+	public Account account;
+	
+	public String getCustomerInfo() {
+		return cusName + "," + ssn + "," + account.getBalance();
+	}
+	public Account getAccount() {
+		return account;
+	}
+	public String getName() {
+		return cusName;
+	}
+	
+	
+	
+
+}

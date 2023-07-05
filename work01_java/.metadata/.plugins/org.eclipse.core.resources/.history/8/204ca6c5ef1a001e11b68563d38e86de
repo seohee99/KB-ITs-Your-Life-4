@@ -1,0 +1,15 @@
+package com.edu.capsulation.test;
+
+import com.edu.capsulation.MyDate;
+
+public class MyDateTest {
+
+	public static void main(String[] args) {
+
+		MyDate md = new MyDate(); // calling, 명시적 생성자가 없으면 컴파일러가 자동으로 생성해줌(안보일뿐)
+		md.month = 33;
+		md.day = 33;
+
+	}
+
+}

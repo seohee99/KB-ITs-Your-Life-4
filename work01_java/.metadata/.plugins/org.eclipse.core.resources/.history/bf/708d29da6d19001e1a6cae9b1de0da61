@@ -1,0 +1,14 @@
+package com.edu.oop;
+
+public class Notebook {
+	public String brand;
+	public int price;
+	public int sno;
+	
+	public void printNoteBookInfo() {
+		System.out.println("brand : " + brand);
+		System.out.println("price : " + price);
+		System.out.println("sno : " + sno);
+	}
+
+}

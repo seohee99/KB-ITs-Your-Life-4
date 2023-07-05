@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.edu.oop.Greet"/>
+    <fullyQualifiedTypeName name="com.edu.oop.Notebook"/>
+    <fullyQualifiedTypeName name="com.edu.datatype.WhileBoard"/>
+    <fullyQualifiedTypeName name="com.edu.cons.Shirt"/>
+    <fullyQualifiedTypeName name="com.edu.oop.test.ProgrammerTest"/>
+    <fullyQualifiedTypeName name="com.edu.oop.Programmer"/>
+    <fullyQualifiedTypeName name="com.edu.oop.NoteBook"/>
+    <fullyQualifiedTypeName name="com.edu.bank.Customer"/>
+    <fullyQualifiedTypeName name="com.edu.bank.Account"/>
+</qualifiedTypeNameHistroy>

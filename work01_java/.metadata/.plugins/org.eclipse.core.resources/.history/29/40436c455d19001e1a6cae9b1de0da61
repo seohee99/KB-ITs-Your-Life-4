@@ -1,0 +1,10 @@
+package com.edu;
+
+public class Greeting {
+
+	public static void main(String[] args) {
+		//  콘솔창으로 메시지를 출력하는 기능
+		System.out.println("kb life 4기 여러분 반갑숨둥~.~");
+	}
+
+}

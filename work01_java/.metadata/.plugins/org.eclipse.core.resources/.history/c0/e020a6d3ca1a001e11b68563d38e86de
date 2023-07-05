@@ -1,0 +1,21 @@
+package com.edu.oop;
+// NoteBook에 대한 정보를 저장하는 클래스
+public class NoteBook {
+	// 필드 선언
+	public String brand;
+	public int price;
+	public int serialNumber;
+	
+	
+	public NoteBook(String brand, int price, int serialNumber) {
+		this.brand = brand;
+		this.price = price;
+		this.serialNumber = serialNumber;
+	}
+
+
+	public String getNoteBookInfo() {
+		return brand + "\t" + price + "\t" + serialNumber;
+	}
+
+}
