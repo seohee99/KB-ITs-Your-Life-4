@@ -2,7 +2,7 @@ package com.edu.test;
 import java.util.Scanner;
 
 /*
- <<ÀÔ·Â Data Sample >>
+ <<ì…ë ¥ Data Sample >>
  6
  1 4 4 4 5 3
  
@@ -15,11 +15,11 @@ public class PersonTypeTest {
 
 
 		  
-		  // ÄÚµå ±¸Çö
+		  // ì½”ë“œ êµ¬í˜„
 		  
 		  
 		  
-		  System.out.println("°¡Àå ¸¹Àº Å¸ÀÔÀÇ À¯ÇüÀº "+answer+" Å¸ÀÔÀÔ´Ï´Ù.!!");
+		  System.out.println("ê°€ì¥ ë§ì€ íƒ€ì…ì˜ ìœ í˜•ì€ "+answer+" íƒ€ì…ì…ë‹ˆë‹¤.!!");
 		  
 		 }
 		}
