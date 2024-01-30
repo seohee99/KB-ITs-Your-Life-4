@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	h1::selection{
+		background-color: black;
+		color : yellow;
+	}
+</style>
+<script>
+	// body 부분에서 onclick 주지 않고 아이디 설정 후 함수로 만들어줌
+	onload = function(){
+	document.querySelector("#change").onclick = push;
+	function push(){
+		// 1. 버튼을 찾아서 여기서 onclick
+		
+		document.querySelector("#demo").innerHTML = "<h2 style='color:tomato'> Hello getElementById()~~</h2>";
+	}
+	}
+</script>
+</head>
+<body>
+	<h1>What Can JavaScript Do?</h1>
+	<p id="demo">JavaScript can change HTML content.</p>
+	<button id="change">Click Me!</button>
+
+</body>
+</html>
