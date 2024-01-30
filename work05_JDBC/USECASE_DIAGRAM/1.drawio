@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" modified="2023-08-02T04:26:09.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="aLgfY8YwmyaU76Z30tYR" version="21.6.6" type="device" pages="2">
+  <diagram name="페이지-1" id="o4aYs-q18iO8lQYqGQmO">
+    <mxGraphModel dx="1308" dy="1230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-1" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-278" y="99" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-2" value="세탁하다" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="111" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-232" y="143" as="sourcePoint" />
+            <mxPoint x="-39" y="-19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-9" value="탈수하다" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="-79" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-12" value="헹군다" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="16" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-13" value="손빨래세탁" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="317" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-14" value="이불 세탁" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-223" y="317" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-15" value="전원 OFF" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="338" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-16" value="세제를 넣는다" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="228" y="111" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-17" value="쾌속세탁" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="177" y="317" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-234" y="143" as="sourcePoint" />
+            <mxPoint x="-35" y="62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-229" y="143" as="sourcePoint" />
+            <mxPoint x="-38" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-126" y="300" as="sourcePoint" />
+            <mxPoint x="-7" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="49" y="304" as="sourcePoint" />
+            <mxPoint x="49" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="241" y="297" as="sourcePoint" />
+            <mxPoint x="129" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-23" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="117" y="145.5" as="sourcePoint" />
+            <mxPoint x="203" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-24" value="&amp;lt;사용자 활용도를 이해하기 위한 가장 마지막 산출물&amp;gt;&lt;br&gt;- 이불 세탁, 손 빨래 세탁, 쾌속 세탁은 세탁하다의 세부 기능&lt;br&gt;- 세제는 세탁보다 선행되어야 하는 기능, Include 표시!!&lt;br&gt;- 마찬가지로 전원 OFF는 점검하기 전에 선행 되어야 하는 기능" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="574" y="-249" width="454" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-26" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="130" y="114" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-27" value="점검원&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="722" y="99" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-30" value="점검하다" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="544" y="323" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="717" y="193" as="sourcePoint" />
+            <mxPoint x="628" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-32" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="559" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CffLSfqs_GyMHDkIZwqO-33" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="443" y="412" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dhRBcZJtcdoJhRlrD8jT" name="페이지-2">
+    <mxGraphModel dx="908" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
