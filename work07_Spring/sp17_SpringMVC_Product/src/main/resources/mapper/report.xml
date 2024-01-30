@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="ns.sql.ReportMapper">	
+	<insert id="insertReport" parameterType="String">
+		INSERT INTO report VALUES(#{VALUE}, 1)
+	</insert>
+	
+	<update id="updateReport" parameterType="String">
+		UPDATE report SET cnt = cnt+1 WHERE word=#{VALUE}
+	</update>
+	
+	<select id="selectReport" resultType="hashmap">
+	<![CDATA[
+		SELECT word, cnt, RANKING 
+		FROM (SELECT word, cnt, rank() OVER(ORDER BY cnt DESC) RANKING from report) 
+		WHERE RANKING <= 5
+	]]>
+	</select>
+</mapper>
+
+
