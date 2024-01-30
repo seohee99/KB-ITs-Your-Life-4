@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style >
+	form{
+	width : 600px;
+	margin : 0 auto;
+	}
+	h2{
+		text-align : center;
+		color : tomato;
+	}
+	legend{
+	color :pimento;
+	font-size:30px; 
+	}
+	
+</style>
+</head>
+<body>
+<h2>FORM TAGS...</h2>
+
+<form action="#">
+	<fieldset>
+		<legend>KB FORM</legend>
+			Id : <input type="text" name="id" value="kb"> <br>
+			PASS : <input type="password" name="pass"> <br> <br>
+			
+			<hr>
+			<input type="radio" name="gender" value="Female" checked="checked"> 여자
+			<input type="radio" name="gender" value="male"> 남자
+			<br><br>
+			<hr>
+			TODAY : <input type="date" name="date"> <br><br>
+			NUMBER : <input type="number" name=number> <br><br>
+			GUEST MEMO :
+			<textarea rows="5" cols="50">
+				Intro Memo..
+			</textarea>
+		<input type="submit" value="SEND">
+	</fieldset>
+</form>
+
+</body>
+</html>

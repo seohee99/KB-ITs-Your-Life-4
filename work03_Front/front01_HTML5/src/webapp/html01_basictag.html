@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script >
+            function push(){
+                alert("버튼이 눌러졌어요~~~!");
+            }
+        </script>
+<style>
+/* 전체 화면의 가로 사이즈를 지정... body태그를 선택자로 지정 */
+body{
+	width : 600px;
+	height : 450px;
+	margin : 0 auto;
+}
+#order{
+	float:left;
+	width : 300px;
+}
+#unorder{
+	float:right;
+	width : 300px;
+}
+#header{
+	color : tomato;
+	margin-left:150px;
+}
+#order, #unorder{
+background-color: lightgray;
+border : 1px solid black;
+}
+
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>This is heading 1</h1>
+		<h2>This is heading 1</h2>
+		<h3>This is heading 1</h3>
+		
+	</div>
+
+	<div id="order">
+		<p>Order List</p>
+		<p>순번을 가지는 목록 리스트</p>
+		<p>Bloking Tag</p>
+		<ol>
+			<li><a href='http://java.sun.com'> JAVA </a></li>
+			<li>Python</li>
+			<li>VUE.JS</li>
+			<li><a href='https://www.w3schools.com/html/html_basic.asp'>
+					HTML </a></li>
+		</ol>
+	</div>
+	<div id="unorder">
+		<p>UnOrder List</p>
+		<p>순번을 가지지 않는 목록 리스트</p>
+		<p>Bloking Tag</p>
+		<ul>
+			<li><a href='http://java.sun.com'> JAVA </a></li>
+			<li>Python</li>
+			<li>VUE.JS</li>
+			<li><a href='https://www.w3schools.com/html/html_basic.asp'>
+					HTML </a></li>
+		</ul>
+	</div>
+	<hr>
+	<!-- 버튼 하나를 누르면 팝업창 하나 뜨도록 작성 -->
+	<button onclick = 'push()'> 눌러주세용 </button>
+</body>
+</html>
