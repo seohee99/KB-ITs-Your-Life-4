@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="ns.sql.MyProductMapper">
+	<!-- 상품 추가하기 -->
+	<!-- INSERT문 작성시
+	PK에 해당하는 컬럼값이 DB에서 자동 증가하는 값일 때는 주의해야한다
+	1) 먼저 DB에서 PK 값을 증가시킨다
+	2) 증가된 그 값을 vo(pvo)에 setter로 주입
+	결과적으로 pvo와 DB 테이블(rvo)을 완벽하게 동기화 시킨다! -->
+	<insert id="addProduct" parameterType="myproduct">
+		<selectKey keyProperty="id" order="BEFORE" resultType="int">
+			SELECT myproduct_seq.nextVal FROM dual
+		</selectKey>
+		INSERT INTO myproduct(id, name, maker, price)
+		VALUES (#{id}, #{name}, #{maker}, #{price})
+	</insert>
+	
+	<sql id="select-myproduct">
+		SELECT id, name, maker, price
+		FROM myproduct
+	</sql>
+	
+	<!-- 상품명으로 검색 :: 통돌이 세탁기 :: 세탁기로 조회 가능하도록 :: LIKE 연산자와 와일드 카드 사용-->
+	<select id="findProductByName" parameterType="String" resultType="myproduct">
+		<include refid="select-myproduct"></include>
+		WHERE name LIKE '%' || #{VALUE} || '%'
+	</select>
+	
+	<!-- 제조사 명으로 검색 :: 대우, 삼성, 현대, LG -->
+	<select id="findProductByMaker" parameterType="String" resultType="myproduct">
+		<include refid="select-myproduct"></include>
+		WHERE maker = #{VALUE}
+	</select>
+	
+	<!-- 모든 상품 검색-->
+	<select id="findProducts" resultType="myproduct">
+		<include refid="select-myproduct"></include>
+	</select>
+	
+</mapper>
