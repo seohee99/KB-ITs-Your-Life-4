@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(function() {
+	// 1. 버튼 클릭..함수 호출..array 생성
+	$('#eachBtn').click(function() {
+		var array = [];
+		array.push("파인애플");
+		array.push("샤인머스켓");
+		array.push("블랙사파이어");
+		array.push("블루베리");
+		
+		/* alert(array);
+		alert(array.length); */
+		
+	// 2. 반복문...for / forEach() / each()
+	/* 	var str = '';
+		for(var i=0; i<array.length; i++){
+			str += array[i] + " ";
+		}
+		alert(str); */
+		
+		
+	// 3. each()
+		var str = '';
+		$.each(array,function(index, item){
+			str += item + " ";	
+		});
+		alert(str);
+	});
+	
+});
+</script>
+</head>
+<body>
+	<input type="button" value="배열에 each() 적용" id="eachBtn">
+</body>
+</html>

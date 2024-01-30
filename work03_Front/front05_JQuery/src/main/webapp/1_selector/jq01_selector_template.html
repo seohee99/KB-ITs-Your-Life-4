@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	$(function(){  
+		
+	}); // onload 함수와 동일... $(function(){}) 여러번 정의할 수 있다
+	
+	$(function(){  
+		// 1. 버튼 클릭하면 함수 호출...click()
+		$('button').click(function () {
+			// h2, p 영역의 폰트 색 변경 
+			$('h2, p').css('color', '#FBA1B7');
+			
+			// h2태그의 자식 태그인 span을 선택자로 지정
+			//$('h2 span').css('color', '#E48586');
+			$('h2>span').css('color', '#E48586');
+			
+			// 첫번째 p태그를 선택자로 지정...경계선을 1px solid green(css())
+			//$('p:eq(0)').css('border', '1px solid #DAC0A3')
+			//$('p:last').css('border', '1px solid #DAC0A3')
+			$('p:first').css('border', '2px solid #DAC0A3')
+			
+			// p태그의 클래스 속성 값이 theme인 선택자를 지정...css
+			$('p.theme').css('border', '2px dotted #96B6C5')
+		})
+		
+	});
+</script>
+</head>
+<body>
+	<h2 id="header">	
+		<span>This is a heading</span>
+	</h2>
+	
+	<p>This is a paragraph.</p>
+	<p class="content">This is another paragraph1.</p>
+	<p class="content theme">This is another paragraph2.</p>
+	
+	<button>Click me to hide paragraphs</button>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>val()|text(),html()</title>
+<style>
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	$(function(){  
+		//$('button').click(function () {
+		//$('button').bind('click',function () {
+		//$('button').on('click',function () {
+		$('button').one('click',function () { //한번만 append 됨
+			var text1 = "<p>KB IT's Your Life</p>";
+			
+			// p태그 영역에 있는 내용을 받아온다..
+			var text2 = $('p').html();
+			
+			//p태그를 생성
+			var text3 = document.createElement('p');
+			text3.innerHTML = "KB IT's Your Life"; // <p>KB IT's Your Life</p> (text1과 같은 결과)
+			
+			//$('body').append(text1).append(text2).append(text3);
+			$('body').append(text1, text2, text3);
+			
+		});//click
+	});//ready
+</script>
+</head>
+<body>
+	<p>This is a paragraph.</p>
+	<button>Append text</button>	
+</body>
+</html>
